@@ -2,6 +2,7 @@
 # HTTP Endpoint Health Checker
 
 This Python script checks the health of HTTP endpoints specified in a provided YAML configuration file.
+Note: While we have used the given sample input file for testing, this script can perform health checks on any YAML file that follows the schema listed
 
 ## Prerequisites
 
@@ -26,8 +27,9 @@ This Python script checks the health of HTTP endpoints specified in a provided Y
 
 3. Run the script with the following command:
    ```
-   python health_checker.py endpoints_config.yaml
+   python health_checker.py <path_to_yaml_file>
    ```
+   Replace <path_to_yaml_file> with the path to your YAML configuration file. This can be either the provided sample file or your own custom file.
 
 4. The script will start checking the endpoints every 15 seconds and display the results in the console.
 
