@@ -24,7 +24,8 @@ Note: While we have used the given sample input file for testing, this script ca
 1. Clone this repository or download the script files to your local machine.
    
 2. (Optional) If you want to use your own YAML file instead of the provided sample, create a new YAML file following the schema described in the "YAML Configuration File" section below.
-   
+   link-https://fetch-hiring.s3.us-east-1.amazonaws.com/site-reliability-engineer/health-check.pdf
+
 3. Open a terminal or command prompt and navigate to the directory containing the script.
 
 4. Run the script with the following command:
