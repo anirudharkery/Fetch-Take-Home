@@ -20,16 +20,18 @@ This Python script checks the health of HTTP endpoints specified in a provided Y
 
 ## Running the Script
 
-1. Place the `health_checker.py` script and the provided YAML file in the same directory.
+1. Clone this repository or download the script files to your local machine.
+   
+2. Open a terminal or command prompt and navigate to the directory containing the script.
 
-2. Run the script with the following command:
+3. Run the script with the following command:
    ```
    python health_checker.py endpoints_config.yaml
    ```
 
-3. The script will start checking the endpoints every 15 seconds and display the results in the console.
+4. The script will start checking the endpoints every 15 seconds and display the results in the console.
 
-4. To stop the script, press Ctrl+C.
+5. To stop the script, press Ctrl+C.
 
 ## Output
 
